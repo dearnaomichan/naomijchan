@@ -1,40 +1,69 @@
 ---
 layout: default
 ---
-<div class="home">
 
-  <ul>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link humanhorizons.html %}">Human Horizons</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link mono.html %}">Mono</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link monodash.html %}">Monodash</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link borrowedinterest.html %}">Borrowed Interest</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link projectfi.html %}">Project Fi</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{% link gpay.html %}">GPay</a>
-      </h2>
-    </li>
+<div class="column-wrapper">
 
-  </ul>
+  <div class="left">
+
+    {%- include header.html -%}
+
+    <div class="work-list">
+      <ul>
+      {% for post in site.posts %}
+        <li>
+            <h1><a class="{{ post.categories }}" href="{{ post.url }}">{{ post.title }}</a></h1>
+      </li>
+       {% endfor %}
+    </ul>
+    </div>
+  </div>
+
+  <div class="right">
+      <div class="img-wrapper">
+        <img class="hhf-img hideImg" src="assets/img/nc_HHF_TEMP.png" alt="">
+        <img class="mono-img hideImg" src="assets/img/nc_borrowedinterest.png" alt="">
+        <img class="monodash-img hideImg" src="assets/img/nc_mono.png" alt="">
+        <img class="borrowedinterest-img hideImg" src="assets/img/nc_monodash.png" alt="">
+        <img class="gpay-img hideImg" src="assets/img/nc_todaywespray.png" alt="">
+        <img class="krylon-img hideImg" src="assets/img/nc_gpay.png" alt="">
+      </div>
+  </div>
 
 </div>
+
+
+<!-- <div class="work-list">
+<ul>
+<li>
+<h1>
+<a class="hhf" href="{{ site.baseurl }}{% link humanhorizons.html %}">Human Horizon Films</a>
+</h1>
+</li>
+<li>
+<h1>
+<a class="mono" href="{{ site.baseurl }}{% link mono.html %}">Mono</a>
+</h1>
+</li>
+<li>
+<h1>
+<a class="monodash" href="{{ site.baseurl }}{% link monodash.html %}">Monodash</a>
+</h1>
+</li>
+<li>
+<h1>
+<a class="borrowedinterest" href="{{ site.baseurl }}{% link borrowedinterest.html %}">Borrowed Interest</a>
+</h1>
+</li>
+<li>
+<h1>
+<a class="gpay" href="{{ site.baseurl }}{% link gpay.html %}">GPay</a>
+</h1>
+</li>
+<li>
+<h1>
+<a class="krylon" href="{{ site.baseurl }}{% link gpay.html %}">Today We Spray</a>
+</h1>
+</li>
+</ul>
+</div> -->
