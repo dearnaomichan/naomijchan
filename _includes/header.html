@@ -2,17 +2,10 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-    <div class="name">
-      {%- if site.title -%}
-      <span>Naomi Chan</span>
-      <div class="nav">
-      <h3 id="home">
-        <a href="{{ site.baseurl }}">home</a>
-      </h3>
-      <h3 id="info">
-        <a href="{{ site.baseurl }}">info</a>
-      </h3>
-    </div>
-      {%- endif -%}
+  <div class="name">
+    {%- if site.title -%}
+    <a href="{{ "/" | relative_url }}">Naomi Chan</a>
+    <a href="{{ site.baseurl }}/info.html">?</a>
+    {%- endif -%}
   </div>
 </header>

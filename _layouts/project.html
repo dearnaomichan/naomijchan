@@ -1,23 +1,26 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+layout: default
+---
 
+    <div class="column-wrapper-projectpg">
+      {%- include header.html -%}
+      <div class="left-projectpg">
 
-{%- include head.html -%}
-
-
-  <body>
-    <div class="column-wrapper">
-      <div class="left">
-        {%- include header.html -%}
-
+        <div class="desc-container">
+          <div class="desc">
+            <h1>{{ page.title | escape }}</h1>
+            <h3>{{ page.excerpt }}</h3>
+          </div>
+        </div>
 
       </div>
 
-      <div class="right">
+<div class="right-scroll">
 
+      <div class="project-content">
+          {{ content }}
       </div>
     </div>
-    <!-- {%- include footer.html -%} -->
+  </div>
 
-    </body>
-  </html>
+  <!-- {%- include footer.html -%} -->

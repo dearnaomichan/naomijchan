@@ -4,7 +4,8 @@ title:  Human Horizon Films
 categories: hhf
 ---
 
-<!--more-->
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
+<!--more-->
 
 PROJECT WORK GOES HERE
