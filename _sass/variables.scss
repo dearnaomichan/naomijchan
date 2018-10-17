@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $font-roboto: 'Roboto', sans-serif;
-// $font-amiri: 'Amiri', serif;
-
+$default-weight: 400;
 
 $off-black: #2c2c2c;
 $off-white: rgba(235,235,235,.2);
+
+$max-wid: 1199px;
+
+$on-palm:          600px !default;
+$on-tablet:        800px !default;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}

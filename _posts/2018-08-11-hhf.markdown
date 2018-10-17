@@ -1,11 +1,9 @@
 ---
 layout: project
 title:  Human Horizon Films
-categories: hhf
+image: hhf_thumb.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+### Human Horizon Films : Portfolio for film production website.
 
 <!--more-->
-
-PROJECT WORK GOES HERE

@@ -1,11 +1,13 @@
 <header class="site-header" role="banner">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+<div class="wrapper">
 
   <div class="name">
-    {%- if site.title -%}
-    <a href="{{ "/" | relative_url }}">Naomi Chan</a>
-    <a href="{{ site.baseurl }}/info.html">?</a>
-    {%- endif -%}
+    <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
   </div>
+  <div class="about">
+    <a href="{{ site.baseurl }}/info.html">?</a>
+  </div>
+</div>
 </header>

@@ -1,12 +1,7 @@
 ---
 layout: project
 title:  Mono
-categories: mono
+image: mono_thumb.jpg
 ---
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-
+### MONO : Mono Agnecy rebrands their website.
 <!--more-->
-
-
-PROJECT WORK GOES HERE

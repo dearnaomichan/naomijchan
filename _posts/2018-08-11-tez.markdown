@@ -1,0 +1,9 @@
+---
+layout: project
+title:  Tez
+image: tez_thumb.jpg
+---
+
+### Tez : Responsive design for Indian company.
+
+<!--more-->

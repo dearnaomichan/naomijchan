@@ -4,41 +4,17 @@ layout: default
 
 <div class="hero-home">
   <div class="intro-wrapper">
-  <div class="intro-copy">
-    <h1>Hi 👋🏼 I’m Naomi and I’m a web designer based in Minneapolis.</h1>
+      <h1>{{ site.about }}</h1>
   </div>
 </div>
-</div>
 
-<div class="work-grid">
-  <div class="preview"></div>
-  <div class="preview"></div>
-  <div class="preview"></div>
-  <div class="preview"></div>
-  <div class="preview"></div>
-  <div class="preview"></div>
-</div>
-
-<!-- <div class="left">
-<div class="work-list">
-<ul>
-{% for post in site.posts %}
-<li>
-<h1><a class="{{ post.categories }}" href="{{ post.url }}">{{ post.title }}</a></h1>
-</li>
-{% endfor %}
-</ul>
-</div>
-</div>
-
-<div class="right">
-<div class="img-wrapper">
-<img class="hhf-img hideImg" src="assets/img/nc_HHF_TEMP.png" alt="">
-<img class="mono-img hideImg" src="assets/img/nc_mono.png" alt="">
-<img class="monodash-img hideImg" src="assets/img/nc_monodash.png" alt="">
-<img class="borrowedinterest-img hideImg" src="assets/img/nc_borrowedinterest.png" alt="">
-<img class="gpay-img hideImg" src="assets/img/nc_gpay.png" alt="">
-<img class="100days-img hideImg" src="assets/img/nc_100days.png" alt="">
-</div>
-<div id="p5-home"></div>
-</div> -->
+  <div class="work-grid">
+      {% for post in site.posts %}
+        <div class="preview">
+          <a href="{{ post.permalink }}">
+            <img src="{{ site.baseurl }}/assets/img/{{ post.image }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+        </div>
+      {% endfor %}
+  </div>

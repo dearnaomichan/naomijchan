@@ -1,12 +1,9 @@
 ---
 layout: project
 title:  Monodash
-categories: monodash
+image: monodash_thumb.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+### Monodash : Timed internship application.
 
 <!--more-->
-
-
-PROJECT WORK GOES HERE

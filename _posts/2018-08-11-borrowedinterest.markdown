@@ -1,18 +1,10 @@
 ---
 layout: project
-title:  Borrowed Interest
-categories: borrowedinterest
-excerpt: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+title:  Borrowed Interest Podcast
+image: bip_thumb.jpg
+permalink: /borrowed-interest-podcast/
+author: Borrowed Interest Podcast
+post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
 ---
 
-<!--more-->
-
-{::nomarkdown}  
-
-<div class="project-video">
-  <div style="padding:53.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/284844996?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
-<div class="project-video">
-  <div style="padding:53.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/284844996?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
-{:/}  
+![alt text](/assets/img/borrowedinterest/bip_1.png)

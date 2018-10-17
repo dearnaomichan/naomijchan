@@ -1,12 +1,9 @@
 ---
 layout: project
 title:  GPay
-categories: gpay
+image: gpay_thumb.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+### GPAY : Responsive design for Consumer and Business websites.
 
 <!--more-->
-
-
-PROJECT WORK GOES HERE
