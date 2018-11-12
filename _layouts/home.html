@@ -4,15 +4,16 @@ layout: default
 
 <div class="hero-home">
   <div class="intro-wrapper">
-      <h1>{{ site.about }}</h1>
+      <h2>{{ site.about }}</h2>
   </div>
 </div>
 
   <div class="work-grid">
       {% for post in site.posts %}
-        <div class="preview">
+        <div class="preview wow fadeInDown" >
           <a href="{{ post.permalink }}">
-            <img src="{{ site.baseurl }}/assets/img/{{ post.image }}">
+            <img class='project-image-top fill' src="{{ site.baseurl }}/assets/img/{{ post.hover-image }}">
+            <img class='fill' src="{{ site.baseurl }}/assets/img/{{ post.image }}">
             <h3>{{ post.title }}</h3>
           </a>
         </div>

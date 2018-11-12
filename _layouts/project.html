@@ -3,17 +3,18 @@ layout: default
 ---
 
 
-
 <div class="project-page">
     <div class="project-info">
-      <p>client:</p>
-      <h3>{{ page.author }}</h3>
-      <br>
-      <p>project:</p>
+      <p>project</p>
       <h3>{{ page.title }}</h3>
+      <br>
+      <p>client</p>
+      <h3>{{ page.client }}</h3>
     </div>
-    <div class="project-info">
-      {{ page.post_description}}
+    <div class="project-info mobile">
+      <p>{{ page.post_description}}</p>
+      <br>
+      <p>role: {{ page.role }}</p>
     </div>
 </div>
 

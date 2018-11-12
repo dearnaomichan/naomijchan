@@ -7,6 +7,7 @@ body {
   padding: 0;
   color: #2C2C2C;
   font-family: $font-roboto;
+  background: #f7f7f7;
 }
 
 h1 {
@@ -17,12 +18,15 @@ h1 {
 h2 {
   font-size: 42px;
   font-weight: $default-weight;
+  @include media-query($on-tablet) {font-size: 32px;}
+
 }
 
 h3 {
   font-size: 3vh;
+  @include media-query($on-tablet) {font-size: 2vh;}
+  @include media-query($on-palm) {font-size: 3vh;}
   font-weight: $default-weight;
-
 
 }
 
@@ -46,7 +50,7 @@ a {
   color: #2C2C2C;
   text-decoration:none;
   opacity: 1;
-  // transition: 0.3s;
+  transition: 0.3s;
 }
 
 a:hover, a:focus {
@@ -114,6 +118,21 @@ hr {
   height:1px;
   margin:0 0 20px;
 }
+
+button {
+  border-color: white;
+  font-family: Roboto;
+  // border-radius: 2px;
+  font-size: 14px;
+  padding: 3px 9px 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: gray;
+}
+
 // @media print, screen and (max-width: 960px) {
 //
 //   div.wrapper {

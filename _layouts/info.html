@@ -2,24 +2,16 @@
 layout: default
 ---
 
-    <div class="column-wrapper">
-      {%- include header.html -%}
+<div class="column-wrapper">
+  {%- include header.html -%}
 
-      <div class="left">
+  <div class="left">
 
-        <div class="desc-container">
-          <div class="desc">
-            <p>{{ content }}</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="right">
-        <div id="p5-container"></div>
+    <div class="desc-container">
+      <div class="desc">
+        <p>{{ content }}</p>
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js" charset="utf-8"></script>
-    <script src="{{site.url}}/assets/js/sketch.js" charset="utf-8"></script>
+  </div>
+</div>
