@@ -1,11 +1,24 @@
 ---
 layout: project
 title:  Human Horizon Films
-categories: hhf
+image: hhf_1.jpg
+hover-image: hhf_2.jpg
+permalink: /human-horizon-films/
+client: Tahiel J.
+post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
+
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+![alt text][screenshot-still]
+
+![alt text][iterations]
+
+[screenshot-still]: /assets/img/hhf/hhf_screenshot.jpg "HHF screenshot"
+[iterations]: /assets/img/hhf/hhf-iterations.jpg "HHF screenshot"
+
+
+{::nomarkdown}
+<video src="/assets/img/hhf/cloud_example_720.mov" autoplay loop></video>
+{:/}
 
 <!--more-->
-
-PROJECT WORK GOES HERE

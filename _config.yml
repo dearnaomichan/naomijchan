@@ -29,8 +29,10 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
+about: Hi, I’m Naomi and I'm a Designer and Front-end Developer.
 
-excerpt_separator: "<!--more-->"
+
+excerpt_separator: <!--more-->
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

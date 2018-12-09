@@ -2,25 +2,22 @@
 layout: default
 ---
 
-    <div class="column-wrapper-projectpg">
-      {%- include header.html -%}
-      <div class="left-projectpg">
 
-        <div class="desc-container">
-          <div class="desc">
-            <h1>{{ page.title | escape }}</h1>
-            <h3>{{ page.excerpt }}</h3>
-          </div>
-        </div>
-
-      </div>
-
-<div class="right-scroll">
-
-      <div class="project-content">
-          {{ content }}
-      </div>
+<div class="project-page">
+    <div class="project-info">
+      <p>project</p>
+      <h3>{{ page.title }}</h3>
+      <br>
+      <p>client</p>
+      <h3>{{ page.client }}</h3>
     </div>
-  </div>
+    <div class="project-info mobile">
+      <p>{{ page.post_description}}</p>
+      <br>
+      <p>role: {{ page.role }}</p>
+    </div>
+</div>
 
-  <!-- {%- include footer.html -%} -->
+<div class="project-content">
+  {{ page.content }}
+</div>

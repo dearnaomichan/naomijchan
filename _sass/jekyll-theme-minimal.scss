@@ -7,20 +7,27 @@ body {
   padding: 0;
   color: #2C2C2C;
   font-family: $font-roboto;
-  font-weight: 400;
+  background: #f7f7f7;
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 8vh;
+  font-weight: $default-weight;
 }
 
 h2 {
   font-size: 42px;
+  font-weight: $default-weight;
+  @include media-query($on-tablet) {font-size: 32px;}
+
 }
 
 h3 {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 3vh;
+  @include media-query($on-tablet) {font-size: 2vh;}
+  @include media-query($on-palm) {font-size: 3vh;}
+  font-weight: $default-weight;
+
 }
 
 p {
@@ -43,7 +50,7 @@ a {
   color: #2C2C2C;
   text-decoration:none;
   opacity: 1;
-  // transition: 0.3s;
+  transition: 0.3s;
 }
 
 a:hover, a:focus {
@@ -111,77 +118,92 @@ hr {
   height:1px;
   margin:0 0 20px;
 }
-@media print, screen and (max-width: 960px) {
 
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
+button {
+  border-color: white;
+  font-family: Roboto;
+  // border-radius: 2px;
+  font-size: 14px;
+  padding: 3px 9px 3px;
+  background: white;
+  transition: 0.3s;
 }
 
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
+button:hover {
+  background-color: gray;
 }
 
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
+// @media print, screen and (max-width: 960px) {
+//
+//   div.wrapper {
+//     width:auto;
+//     margin:0;
+//   }
+//
+//   header, section, footer {
+//     float:none;
+//     position:static;
+//     width:auto;
+//   }
+//
+//   header {
+//     padding-right:320px;
+//   }
+//
+//   section {
+//     border:1px solid #e5e5e5;
+//     border-width:1px 0;
+//     padding:20px 0;
+//     margin:0 0 20px;
+//   }
+//
+//   header a small {
+//     display:inline;
+//   }
+//
+//   header ul {
+//     position:absolute;
+//     right:50px;
+//     top:52px;
+//   }
+// }
+//
+// @media print, screen and (max-width: 720px) {
+//   body {
+//     word-wrap:break-word;
+//   }
+//
+//   header {
+//     padding:0;
+//   }
+//
+//   header ul, header p.view {
+//     position:static;
+//   }
+//
+//   pre, code {
+//     word-wrap:normal;
+//   }
+// }
 
-  header ul {
-    width:99%;
-  }
-
-  header li, header ul li + li + li {
-    width:33%;
-  }
-}
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
-}
+// @media print, screen and (max-width: 480px) {
+//   body {
+//     padding:15px;
+//   }
+//
+//   header ul {
+//     width:99%;
+//   }
+//
+//   header li, header ul li + li + li {
+//     width:33%;
+//   }
+// }
+//
+// @media print {
+//   body {
+//     padding:0.4in;
+//     font-size:12pt;
+//     color:#444;
+//   }
+// }
