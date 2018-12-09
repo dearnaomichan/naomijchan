@@ -10,12 +10,10 @@ post_description: In some countries, bananas used for cooking may be called "pla
 ---
 
 ![alt text][screenshot-still]
-
-![alt text][iterations]
+<!-- ![alt text][iterations] -->
 
 [screenshot-still]: /assets/img/hhf/hhf_screenshot.jpg "HHF screenshot"
 [iterations]: /assets/img/hhf/hhf-iterations.jpg "HHF screenshot"
-
 
 {::nomarkdown}
 <video src="/assets/img/hhf/cloud_example_720.mov" autoplay loop></video>

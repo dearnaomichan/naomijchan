@@ -9,7 +9,7 @@ post_description: In some countries, bananas used for cooking may be called "pla
 
 ---
 
-![tez mobile tablet design][mobile-tablet *BROKE ON PURPOSE]
+![tez mobile tablet design][mobile-tablet]{: .pad-bottom }
 ![tez desktop design][desktop]
 
 [mobile-tablet]: /assets/img/tez/tez_mobile_tablet.png "tez mobile tablet design"
