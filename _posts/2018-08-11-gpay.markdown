@@ -12,5 +12,10 @@ post_description: In some countries, bananas used for cooking may be called "pla
 ![gpay mobile tablet design][mobile-tablet]{: .pad-bottom }
 ![gpay desktop design][desktop]
 
+<<<<<<< HEAD
 [mobile-tablet]: /assets/img/gpay_mobile_tablet.png "gpay mobile tablet design"
 [desktop]: /assets/img/gpay_desktop.png "gpay desktop design"
+=======
+[mobile-tablet]: /assets/img/gpay/gpay_mobile_tablet.png "gpay mobile tablet design"
+[desktop]: /assets/img/gpay/gpay_desktop.jpg "gpay desktop design"
+>>>>>>> 11620ba3cda80f16315de97be4573cb815358647

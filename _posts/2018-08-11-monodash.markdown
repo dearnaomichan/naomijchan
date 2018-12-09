@@ -11,10 +11,17 @@ post_description: In some countries, bananas used for cooking may be called "pla
 {::nomarkdown}
 <div class="project-two-column ">
   <div class="item-image left">
+<<<<<<< HEAD
     <img src="/assets/img/monodash_first-animation_doc-no-ui.gif" alt="monodash landing page gif">
   </div>
   <div class="item-image right">
     <img src="/assets/img/monodash_question_doc-no-ui.gif" alt="monodash questions gif">
+=======
+    <img src="/assets/img/monodash/monodash_first-animation_doc-no-ui.gif" alt="monodash landing page gif">
+  </div>
+  <div class="item-image right">
+    <img src="/assets/img/monodash/monodash_question_doc-no-ui.gif" alt="monodash questions gif">
+>>>>>>> 11620ba3cda80f16315de97be4573cb815358647
   </div>
 </div>
 

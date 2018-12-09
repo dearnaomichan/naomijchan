@@ -12,8 +12,13 @@ post_description: In some countries, bananas used for cooking may be called "pla
 ![alt text][screenshot-still]
 <!-- ![alt text][iterations] -->
 
+<<<<<<< HEAD
 [screenshot-still]: /assets/img/hhf_screenshot.png "HHF screenshot"
 [iterations]: /assets/img/hhf-iterations.jpg "HHF screenshot"
+=======
+[screenshot-still]: /assets/img/hhf/hhf_screenshot.jpg "HHF screenshot"
+[iterations]: /assets/img/hhf/hhf-iterations.jpg "HHF screenshot"
+>>>>>>> 11620ba3cda80f16315de97be4573cb815358647
 
 {::nomarkdown}
 <video src="/assets/img/hhf/cloud_example_720.mov" autoplay loop></video>
