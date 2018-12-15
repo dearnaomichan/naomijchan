@@ -1,25 +1,16 @@
-
-var portrait;
-function preload(){
-  portrait = loadImage('assets/img/portrait.jpg')
-}
 function setup() {
-  var cnv = createCanvas(windowWidth/2,windowHeight, WEBGL)
-  cnv.parent('p5-container');
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.parent('sketch-holder');
+  // frameRate(15)
 }
-
 function draw() {
-  background(0)
-  strokeWeight(0)
-  fill('green')
-
-  var mY = -mouseY * .001;
-  var mX = mouseX * .001;
-  // console.log(mY)
-  // rotateZ(frameCount * 0.001);
-  rotateX(mX);
-  rotateY(mY);
-  texture(portrait);
-  // sphere(200)
-  box(150, 150, 1)
+  // background('#F8F8F8')
+  fill('#F8F8F8')
+  ellipse(mouseX,mouseY,50);
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+function mousePressed() {
+background('#F8F8F8')
 }

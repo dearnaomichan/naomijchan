@@ -2,20 +2,36 @@
 layout: default
 ---
 
+<div class="home-page">
+
+<div id="sketch-holder" style="position:absolute; z-index:-10;"></div>
 <div class="hero-home">
-  <div class="intro-wrapper">
-      <h2>{{ site.about }}</h2>
+  <div class="intro__1">
+    {% for post in site.categories.intro__1 %}
+      {{ post.content }}
+    {% endfor %}
+    <h1>i’m <span>Naomi Chan</span> and i’m a <span>web designer</span> and i help translate my clients passions into interactive web experiences.</h1>
+  </div>
+  <div class="intro__2">
+    {% for post in site.categories.intro__2 %}
+      {{ post.content }}
+    {% endfor %}
   </div>
 </div>
 
+<div class="work-grid-wrapper">
+
   <div class="work-grid">
-      {% for post in site.posts %}
+      {% for post in site.categories.work %}
         <div class="preview wow fadeInDown" >
           <a href="{{ post.permalink }}">
+            <h2>{{ post.title }}</h2>
             <img class='project-image-top fill' src="{{ site.baseurl }}/assets/img/{{ post.hover-image }}">
-            <img class='fill' src="{{ site.baseurl }}/assets/img/{{ post.image }}">
-            <h3>{{ post.title }}</h3>
+            <!-- <img class='fill' src="{{ site.baseurl }}/assets/img/{{ post.image }}"> -->
           </a>
         </div>
       {% endfor %}
   </div>
+  </div>
+</div>
+{%- include footer-p5js.html -%}

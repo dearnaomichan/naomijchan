@@ -1,44 +1,47 @@
 ---
 layout: default
 ---
-
+{%- include header.html -%}
 
 <div class="project-page">
     <div class="project-info">
-      <p>project</p>
-      <h3>{{ page.title }}</h3>
+      <p>Client</p>
+      <h2>{{ page.client }}</h2>
       <br>
-      <p>client</p>
-      <h3>{{ page.client }}</h3>
-<<<<<<< HEAD
+      <br>
+      <p>Role</p>
+      <h2>{{ page.role }}</h2>
     </div>
     <div class="project-info mobile">
       <p>{{ page.post_description}}</p>
       <br>
-      <p>role: {{ page.role }}</p>
     </div>
 </div>
 
 <div class="project-content">
   {{ page.content }}
 </div>
+<div class="next__prev">
+  <div class="next__prev_center">
 
-{% assign posts = site.posts | sample:3 %}
-      {% for post in posts %}
-      <a href="{{post.url}}">
-        <img src="{{post.image}}" alt="">
-      </a>
-      {% endfor %}
-=======
+    <div id="prev">
+      {% if page.previous %}
+          <a rel="prev" href="{{ page.previous.url }}">
+            <h1>
+              <span><</span>
+            </h1>
+          </a>
+      {% endif %}
     </div>
-    <div class="project-info mobile">
-      <p>{{ page.post_description}}</p>
-      <br>
-      <p>role: {{ page.role }}</p>
-    </div>
-</div>
 
-<div class="project-content">
-  {{ page.content }}
+    <div id="next">
+      {% if page.next %}
+          <a rel="next" href="{{ page.next.url }}">
+            <h1>
+              <span>></span>
+            </h1>
+          </a>
+      {% endif %}
+    </div>
+  </div>
 </div>
->>>>>>> 11620ba3cda80f16315de97be4573cb815358647

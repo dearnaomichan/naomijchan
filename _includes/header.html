@@ -3,20 +3,16 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 <div class="wrapper">
 
-  <div class="nav">
+  <div class="home">
 
-      <a href="{{ "/" | relative_url }}">
-        <button type="button" name="Home">HOME</button>
-      </a>
-
-
-      <a href="{{ site.baseurl }}/info.html">
-        <button type="button" name="About">ABOUT</button>
-      </a>
+    <a href="{{ "/" | relative_url }}">
+      <h2><span>X</span></h2>
+    </a>
 
   </div>
-  <div class="name">
-    <p>Naomi Chan</p>
+  <div class="project-title">
+    <h1>{{ page.title }}</h1>
   </div>
+  
 </div>
 </header>

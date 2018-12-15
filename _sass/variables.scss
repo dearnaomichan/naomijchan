@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 
 
-$font-roboto: 'Roboto', sans-serif;
-$font-main: 'Karla', sans-serif;
+
+$font-sans: 'Roboto', sans-serif;
+$font-serif: 'Times New Roman', sans-serif;
 $default-weight: 400;
 
 $off-black: #2c2c2c;
 $off-white: rgba(235,235,235,.2);
+$color-gray: #F8F8F8;
 
 $max-wid: 1199px;
 

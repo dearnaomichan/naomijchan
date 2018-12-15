@@ -1,24 +1,11 @@
 header {
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  z-index: 1000;
-  padding: 20px;
-  // margin: 0 2%;
+margin-bottom: 100px;
 
-  .nav { position: fixed; left: 0; padding-left: 15px;}
-  .name { position: fixed;
-    right: 15px;
-    background: white;
-    padding: 3px 9px 3px;
-
-    p {
-      margin: 0;
-    }
+  .wrapper {
+    display: flex;
+    padding:10px;
+    .project-title { margin: auto;}
   }
-
     span {
       text-transform: uppercase;
       font-size: 4vw;
@@ -45,66 +32,64 @@ header {
 .grid-item { width: 25%; }
 .grid-item--width2 { width: 50%; }
 //////////////////////// HOME
-.hero-home {
+
+.home-page {
+  overflow: hidden;
+  height: 100vh;
   width: 100vw;
-  height: 65vh;
+
+.hero-home {
+  width: 100%;
+  padding: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  // background-color: #f7f3f1;
+  position: absolute;
+  span {
+    font-family: $font-sans;
+  }
 
-  .intro-wrapper {width: 55vw; margin-left: 1vw; max-width: $max-wid;
-    @include media-query($on-tablet) {width: 75vw;}
-    @include media-query($on-palm) {width: 85vw;}
-}
-  .center {text-align: center;}
-}
-
-
-.work-grid {
-  max-width: $max-wid;
-  margin: auto;
-  // margin-top: 100px;
-  padding: 1%;
-
-  .preview {
-    width: 48%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    float: left;
-    margin: 1%;
-
-    @include media-query($on-palm) {float: none; width:inherit;}
-
-    .fill {object-fit: fill;}
-
-    a {
-      .project-image-top {
-        position: absolute;
-        display: none;
-        // z-index: 99;
-      }
-      img {
-        // width: 100%;
-      }
-    }
-      a:hover .project-image-top{
-        display: inline;
-        // width: 47.1%;
-        @include media-query($on-tablet) {display: none;}
-      }
-
+  .intro__1 {
+    width: 75%;
+  }
+  .intro__2 {
+    width: 25%;
   }
 }
 
+.work-grid-wrapper{
+
+}
+.work-grid {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0;
+  // margin-top: 30vh;
+  // display: flex;
+  // overflow-x: scroll;
+  // white-space: nowrap;
+  padding: 10px;
+  // height: 50vh;
+
+  .preview {
+    // min-width: 45vw;
+    // min-height: auto;
+    display: inline-block;
+    padding-right: 10px;
+  }
+}
+
+.work-grid::-webkit-scrollbar {
+  display: none;
+}
+}
+
+
 ////////////// Project Page
 .project-page {
-  padding:0 2%;
-  height: 60vh;
+  padding: 10px;
   display: flex;
-  align-items: center;
-  margin: auto;
-  max-width: $max-wid;
+  margin-bottom: 10em;
 
   @include media-query($on-palm) {
         height:inherit;
@@ -145,6 +130,21 @@ header {
     }
   }
 
+}
+
+.next__prev{
+  display: flex;
+  &_center {
+    display: flex;
+    margin: auto;
+
+    #prev {
+      padding-right:10px;
+    }
+    #next {
+      padding-left:10px;
+    }
+  }
 }
 
 

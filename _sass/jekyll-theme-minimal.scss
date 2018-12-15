@@ -5,25 +5,32 @@
 body {
   margin: 0;
   padding: 0;
-  color: #2C2C2C;
-  font-family: $font-main;
-  background: #f7f7f7;
+  font-family: $font-serif;
+  background: $color-gray;
+  font-weight: $default-weight;
+
 }
 
 h1 {
-  font-size: 8vh;
+  font-family: $font-serif;
+  font-size: 55px;
+  line-height: 55px;
   font-weight: $default-weight;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 42px;
   font-weight: $default-weight;
+  font-family: $font-serif;
+  text-transform: uppercase;
+  font-size: 40px;
   @include media-query($on-tablet) {font-size: 32px;}
 
 }
 
 h3 {
-  font-size: 3vh;
+  font-family: $font-sans;
+  font-size: 30px;
   @include media-query($on-tablet) {font-size: 2vh;}
   @include media-query($on-palm) {font-size: 3vh;}
   font-weight: $default-weight;
@@ -31,8 +38,10 @@ h3 {
 }
 
 p {
-  font-size: 16px;
-  line-height: 25px;
+  font-family: $font-sans;
+  font-size: 20px;
+  text-transform: uppercase;
+  // line-height: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,15 +56,18 @@ p, ul, ol, table, pre, dl {
 }
 
 a {
-  color: #2C2C2C;
+  color: black;
   text-decoration:none;
-  opacity: 1;
-  transition: 0.3s;
+  // opacity: 1;
+  // transition: 0.3s;
 }
 
 a:hover, a:focus {
-  color:gray;
-  text-decoration:none;
+font-style: italic;
+}
+
+span {
+  font-family: $font-sans;
 }
 
 img {

@@ -6,16 +6,15 @@ hover-image: tez_1.jpg
 permalink: /tez-gpay/
 client: Google
 post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
-
+categories: work
 ---
 
 ![tez mobile tablet design][mobile-tablet]{: .pad-bottom }
 ![tez desktop design][desktop]
 
-<<<<<<< HEAD
+
 [mobile-tablet]: /assets/img/tez_mobile_tablet.png "tez mobile tablet design"
 [desktop]: /assets/img/tez_desktop.png "tez desktop design"
-=======
+
 [mobile-tablet]: /assets/img/tez/tez_mobile_tablet.png "tez mobile tablet design"
 [desktop]: /assets/img/tez/tez_desktop.jpg "tez desktop design"
->>>>>>> 11620ba3cda80f16315de97be4573cb815358647
