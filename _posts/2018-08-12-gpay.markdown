@@ -7,16 +7,12 @@ permalink: /Gpay/
 client: Google
 post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
 categories: work
-
+role: Responsive Designer
 ---
 
-![gpay mobile tablet design][mobile-tablet]{: .pad-bottom }
-![gpay desktop design][desktop]
+![gpay desktop design][desktop]{: .pad-bottom }
+![gpay mobile tablet design][mobile-tablet]
 
-<<<<<<< HEAD
-[mobile-tablet]: /assets/img/gpay_mobile_tablet.png "gpay mobile tablet design"
-[desktop]: /assets/img/gpay_desktop.png "gpay desktop design"
-=======
+
 [mobile-tablet]: /assets/img/gpay/gpay_mobile_tablet.png "gpay mobile tablet design"
-[desktop]: /assets/img/gpay/gpay_desktop.jpg "gpay desktop design"
->>>>>>> 11620ba3cda80f16315de97be4573cb815358647
+[desktop]: /assets/img/gpay/gpay_desktop_3columns.png "gpay desktop design"

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- <script>document.body.className += ' fade-out';</script> -->
 
 <div class="home-page">
 
@@ -10,7 +11,7 @@ layout: default
     {% for post in site.categories.intro__1 %}
       {{ post.content }}
     {% endfor %}
-    <h1>i’m <span>Naomi Chan</span> and i’m a <span>web designer</span> and i help translate my clients passions into interactive web experiences.</h1>
+    <h1>i’m <span>Naomi Chan</span>, i’m a <span>web designer</span> and i translate my clients passions into interactive web experiences.</h1>
   </div>
   <div class="intro__2">
     {% for post in site.categories.intro__2 %}
@@ -23,12 +24,14 @@ layout: default
 
   <div class="work-grid">
       {% for post in site.categories.work %}
-        <div class="preview wow fadeInDown" >
+        <div class="preview " >
+          <h2>
           <a href="{{ post.permalink }}">
-            <h2>{{ post.title }}</h2>
-            <img class='project-image-top fill' src="{{ site.baseurl }}/assets/img/{{ post.hover-image }}">
+              {{ post.title }}
+            </a>
+          </h2>
+            <!-- <img class='project-image-top fill' src="{{ site.baseurl }}/assets/img/{{ post.hover-image }}"> -->
             <!-- <img class='fill' src="{{ site.baseurl }}/assets/img/{{ post.image }}"> -->
-          </a>
         </div>
       {% endfor %}
   </div>
