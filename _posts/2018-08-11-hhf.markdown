@@ -10,14 +10,16 @@ categories: work
 role: Web Designer, Front-end Developer
 ---
 
+
+{::nomarkdown}
+<video class="pad-bottom" src="/assets/img/hhf/cloud_example_720.mov" autoplay loop></video>
+{:/}
+
+Website
 ![alt text][screenshot-still]
 <!-- ![alt text][iterations] -->
 
 [screenshot-still]: /assets/img/hhf_screenshot.png "HHF screenshot"
 [iterations]: /assets/img/hhf-iterations.jpg "HHF screenshot"
-
-{::nomarkdown}
-<video src="/assets/img/hhf/cloud_example_720.mov" autoplay loop></video>
-{:/}
 
 <!--more-->

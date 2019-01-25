@@ -5,14 +5,14 @@ image: gpay_1.jpg
 hover-image: gpay_1.jpg
 permalink: /Gpay/
 client: Google
-post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
+post_description: I worked closely with the Digital Designer’s on the Google Pay Consumer site, Google Pay India site (previously known as Tez), and Google Pay’s update to the Consumer site. This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with editors to mock up motion designs for third party developers.
 categories: work
 role: Responsive Designer
 ---
 
-![gpay desktop design][desktop]{: .pad-bottom }
-![gpay mobile tablet design][mobile-tablet]
+![gpay australia][australia]{: .pad-bottom }
+![gpay india][india]
 
 
-[mobile-tablet]: /assets/img/gpay/gpay_mobile_tablet.png "gpay mobile tablet design"
-[desktop]: /assets/img/gpay/gpay_desktop_3columns.png "gpay desktop design"
+[australia]: /assets/img/gpay/gpay_australia.png "gpay australia"
+[india]: /assets/img/gpay/gpay_india.png "gpay india"

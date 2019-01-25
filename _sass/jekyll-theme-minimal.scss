@@ -37,10 +37,19 @@ h3 {
 
 }
 
-p {
+h4 {
   font-family: $font-sans;
   font-size: 20px;
   text-transform: uppercase;
+  // line-height: 25px;
+
+  @include media-query($on-palm) {font-size: 1em;}
+}
+
+p {
+  font-family: $font-sans;
+  font-size: 18px;
+  // text-transform: uppercase;
   // line-height: 25px;
 
   @include media-query($on-palm) {font-size: 1em;}

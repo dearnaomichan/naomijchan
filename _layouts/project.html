@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<a href="{{ "/" | relative_url }}">
+<div class="marquee">
+  <h4>~ go home ~</h4>
+</div>
+</a>
+
 <div class="wow fadeInDown">
   {%- include header.html -%}
 </div>
@@ -10,9 +16,9 @@ layout: default
   <div class="project-info">
     <h1>{{ page.title }}</h1>
     <!-- <p>Client</p> -->
-    <p>{{ page.client }}</p>
-    <!-- <p>Role</p> -->
-    <p>{{ page.role }}</p>
+    <h4>{{ page.client }}</h4>
+    <!-- <h4>Role</h4> -->
+    <h4>{{ page.role }}</h4>
   </div>
   <div class="project-info mobile">
     <p>{{ page.post_description}}</p>

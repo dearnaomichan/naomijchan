@@ -4,7 +4,7 @@ title:  Intro 2
 categories: intro__2
 ---
 
-updated: 12.15.18
+updated: 1.6.18
 
 Currently working at MONO Agency in Minneapolis MN.
 

@@ -5,7 +5,7 @@ image: monodash_1.jpg
 hover-image: monodash_2.jpg
 permalink: /monodash/
 client: MONO
-post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
+post_description: We, the past interns (including myself) concepted for the next year’s internship application. We decided on an application process that would be about speed. We didn’t want students to sit on their computers for days chipping away at a form of questions, we didn’t want the “right” answer, we wanted their honest and gut reaction. This made it easy for MONO to weed out people trying to give answers that they thought we wanted to hear. 
 categories: work
 role: Web Designer, Front-end Developer
 ---

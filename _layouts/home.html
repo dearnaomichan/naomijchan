@@ -2,6 +2,11 @@
 layout: default
 ---
 <!-- <script>document.body.className += ' fade-out';</script> -->
+<a href="{{ "/" | relative_url }}">
+<div class="marquee-home">
+  <h4>{{ site.marquee-about }}</h4>
+</div>
+</a>
 
 <div class="home-page">
 
@@ -11,11 +16,11 @@ layout: default
     {% for post in site.categories.intro__1 %}
       {{ post.content }}
     {% endfor %}
-    <h1>i’m <span>Naomi Chan</span>, i’m a <span>web designer</span> and i translate my clients passions into interactive web experiences.</h1>
+    <h1><span>Naomi Chan</span> is a digital <span>designer</span> who translates her clients’ passions into <span>interactive web experiences</span>.</h1>
   </div>
   <div class="intro__2">
     {% for post in site.categories.intro__2 %}
-      {{ post.content }}
+      <h4>{{ post.content }}</h4>
     {% endfor %}
   </div>
 </div>

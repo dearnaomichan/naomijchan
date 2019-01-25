@@ -10,13 +10,13 @@ function draw() {
   var y = mouseY;
   var ix = width - mouseX;  // Inverse X
   var iy = height - mouseY; // Inverse Y
-  background('#F8F8F8');
+  // background('#F8F8F8');
   // stroke(0, 100)
   fill(255, 150);
   ellipse(x, height/2, y, y);
-  fill(0, 150);
+  fill(80, 150);
   ellipse(ix, height/2, iy, iy);
-  // 
+  //
   // fill('#F8F8F8')
   // ellipse(mouseX,mouseY,20);
 
