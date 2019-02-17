@@ -1,5 +1,4 @@
 $('.marquee-home').marquee({
-  //speed in milliseconds of the marquee
   duration: 10000,
   //gap in pixels between the tickers
   // gap: 100,
