@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "naomichan.info" # the base hostname & protocol for your site, e.g. http://example.com
 instagram: https://www.instagram.com/dearnaomichan/
 marquee-about: ~ also ~ pretty good cook / loves to travel / binge watches cult documentaries / loves to camp in the fall / always down for a walking sport / always ready for a competitive game of Scrabble / obsessive list maker / could eat Dim Sum for the rest of her life / would be an astronaut in a different lifetime ~ loves working with passionate people ~
 
