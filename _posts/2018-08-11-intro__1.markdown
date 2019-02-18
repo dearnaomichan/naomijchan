@@ -1,5 +1,0 @@
----
-layout: project
-title:  Intro 1
-categories: intro__1
----

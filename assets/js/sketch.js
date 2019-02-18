@@ -1,30 +1,50 @@
+let num = 0;
+let scalar;
+let scalar2;
+
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.parent('sketch-holder');
-  // frameRate(15)
-
+  scalar = height/6
+  // scalar2 = 400
 }
 function draw() {
-  var x = mouseX;
-  var y = mouseY;
-  var ix = width - mouseX;  // Inverse X
-  var iy = height - mouseY; // Inverse Y
+
+  let ang1 = radians(num);
+  let x1 = width / 2 + scalar * cos(ang1);
+  let y1 = height / 2 + scalar * sin(ang1);
+
+// reverse
+  let x1r = width / 2 + scalar * sin(ang1);
+  let y1r = height / 2 + scalar * cos(ang1);
+
+  // let y2 = height / 2 + scalar2 * sin(ang1);
+
+  // var x = mouseX;
+  // var y = mouseY;
+  // var ix = width - mouseX;  // Inverse X
+  // var iy = height - mouseY; // Inverse Y
+
+  fill('black')
+  stroke('white')
+  ellipse(x1, y1, mouseY/5);
+  // ellipse(x1r, y1r, mouseY/6);
+  // ellipse(x1, y2, width/100);
+
+  num += 2;
+
+  // console.log(x1 , y1)
+
   // background('#F8F8F8');
-  // stroke(0, 100)
-  fill(255, 150);
-  ellipse(x, height/2, y, y);
-  fill(80, 150);
-  ellipse(ix, height/2, iy, iy);
-  //
-  // fill('#F8F8F8')
-  // ellipse(mouseX,mouseY,20);
+  // strokeWeight(2)
+  // fill('rgba(0,0, 255, .5)');
+  // fill('rgba(255, 0, 255, .5)');
 
   // rect(windowWidth-100,windowHeight-200,100,100)
   //
   // fill('black')
   // rect(windowWidth-100,windowHeight-100,100,100)
-  //
   // floor(ellipseSize+=2);
   // if (ellipseSize>=100){
   //   ellipseSize=20
@@ -32,21 +52,6 @@ function draw() {
   // console.log(ellipseSize)
 }
 
-function mouseClicked(){
-}
-// function mousePressed() {
-//   // Check if mouse is inside the circle
-//   var d = dist(mouseX, mouseY, windowWidth-100,windowHeight-100);
-//   if (d < 100) {
-//     save('my-drawing-naomijchan-website.jpg');
-//     return false
-//   }
-//   var c = dist(mouseX, mouseY, windowWidth-100,windowHeight-200);
-//   if (c < 100) {
-//     background('#F8F8F8')
-//   }
-//
-// }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }

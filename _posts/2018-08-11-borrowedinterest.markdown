@@ -6,10 +6,12 @@ hover-image: bip_2.jpeg
 permalink: /borrowed-interest-podcast/
 client: Amalia Nicholson, Shareina Chandler, and Leeya Jackson
 role: Designer, Front-end Developer
-post_description: In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.
+post_description: I was asked to design and build a website for the Borrowed Interest Podcast. One of their goals was to talk about racial disparity in advertising. They were inspired by the pins on jackets and rage, and wanted something as far from minimal as possible with lots of color and interactivity. I worked closely with the BIP crew to create a bold design system and get this website live.
 categories: work
 role: Web Designer, Front-end Developer
 ---
+
+[Adweek Article here](https://www.adweek.com/agencies/borrowed-interest-podcast-creates-safe-space-for-minority-women-in-advertising/)
 
 {::nomarkdown}
 <div style="padding:53.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/284844996?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

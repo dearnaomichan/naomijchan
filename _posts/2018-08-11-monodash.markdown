@@ -5,7 +5,7 @@ image: monodash_1.jpg
 hover-image: monodash_2.jpg
 permalink: /monodash/
 client: MONO
-post_description: We, the past interns (including myself) concepted for the next year’s internship application. We decided on an application process that would be about speed. We didn’t want students to sit on their computers for days chipping away at a form of questions, we didn’t want the “right” answer, we wanted their honest and gut reaction. This made it easy for MONO to weed out people trying to give answers that they thought we wanted to hear. 
+post_description: I worked with the other former interns at MONO to create the 2018 internship application. We decided that the application process should be about speed. We didn’t want students to sit on their computers for days, chipping away at the same form of questions that every other agency was asking. We didn’t want the “right” answer—we wanted their honest,gut reactions. So, we created a quick program that gave each applicant 30 seconds to answer a non-advertising related question, with 6 questions total. This made it easy for MONO to weed out people trying to give answers that they thought we’d want to hear, and it helped us hire the next crew of summer interns.
 categories: work
 role: Web Designer, Front-end Developer
 ---

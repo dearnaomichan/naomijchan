@@ -15,10 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: Naomi Chan
 email: dearnaomichan@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "naomichan.info" # the base hostname & protocol for your site, e.g. http://example.com
 instagram: https://www.instagram.com/dearnaomichan/
@@ -30,6 +26,11 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 excerpt_separator: <!--more-->
+
+# Home page info
+updated: "updated: 2.18.18"
+description: Currently working at MONO Agency in Minneapolis MN.
+resume: https://drive.google.com/file/d/0ByU3blCUkMg4TXNicEpGajVRQjg/view?usp=sharing
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

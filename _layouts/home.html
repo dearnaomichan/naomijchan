@@ -17,9 +17,15 @@ layout: default
     <h1><span>Naomi Chan</span> is a digital <span>designer</span> who translates her clients’ passions into <span>interactive web experiences</span>.</h1>
   </div>
   <div class="intro__2">
-    {% for post in site.categories.intro__2 %}
-      <h4>{{ post.content }}</h4>
-    {% endfor %}
+    <h4>{{ site.updated }}</h4>
+    <br>
+    <h4>{{ site.description }}</h4>
+    <br>
+    <h4><a href="mailto:{{ site.email }}">email</a></h4>
+    <br>
+    <h4><a href="{{ site.resume }}">Resumé</a></h4>
+    <br>
+    <h4><a href="{{ site.instagram }}">IG</a></h4>
   </div>
 </div>
 
