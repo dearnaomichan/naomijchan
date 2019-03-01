@@ -28,7 +28,7 @@ function draw() {
 
   fill('black')
   stroke('white')
-  ellipse(x1, y1, mouseY/5);
+  // ellipse(x1, y1, mouseY/5);
   // ellipse(x1r, y1r, mouseY/6);
   // ellipse(x1, y2, width/100);
 
@@ -55,6 +55,6 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
-function mousePressed() {
-background('#F8F8F8')
-}
+// function mousePressed() {
+// background('#F8F8F8')
+// }

@@ -31,19 +31,28 @@ layout: default
 
 <div class="work-grid-wrapper">
 
+  <div class="prevImg-wrapper">
+  {% for post in site.categories.work %}
+    <div id="prevImg-{{ forloop.index }}" class="project-img">
+      <img src="{{ post.image }}" alt="">
+    </div>
+  {% endfor %}
+</div>
+
   <div class="work-grid">
       {% for post in site.categories.work %}
-        <div class="preview " >
-          <h2>
-          <a href="{{ post.permalink }}">
-              {{ post.title }}
-            </a>
-          </h2>
-            <!-- <img class='project-image-top fill' src="{{ site.baseurl }}/assets/img/{{ post.hover-image }}"> -->
-            <!-- <img class='fill' src="{{ site.baseurl }}/assets/img/{{ post.image }}"> -->
+        <div class="preview">
+          <div id="project-link-{{ forloop.index }}">
+                <a href="{{ post.permalink }}">
+                  <h2>
+                {{ post.title }}
+              </h2>
+              </a>
+          </div>
         </div>
       {% endfor %}
   </div>
+
   </div>
 </div>
 {%- include footer-p5js.html -%}

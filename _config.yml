@@ -18,7 +18,7 @@ email: dearnaomichan@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "naomichan.info" # the base hostname & protocol for your site, e.g. http://example.com
 instagram: https://www.instagram.com/dearnaomichan/
-marquee-about: ~ also ~ pretty good cook / loves to travel / binge watches cult documentaries / loves to camp in the fall / always down for a walking sport / always ready for a competitive game of Scrabble / obsessive list maker / could eat Dim Sum for the rest of her life / would be an astronaut in a different lifetime ~ loves working with passionate people ~
+marquee-about: pretty good cook / loves to travel / binge watches cult documentaries / loves to camp in the fall / always down for a walking sport / always ready for a competitive game of Scrabble / obsessive list maker / could eat Dim Sum for the rest of her life / would be an astronaut in a different lifetime ~ loves working with passionate people ~
 
 # Build settings
 markdown: kramdown
@@ -28,8 +28,8 @@ plugins:
 excerpt_separator: <!--more-->
 
 # Home page info
-updated: "updated: 2.18.18"
-description: Currently working at MONO Agency in Minneapolis MN.
+updated: "updated: 2.28.18"
+description: Currently working at MONO Creative Agency, Minneapolis MN.
 resume: https://drive.google.com/file/d/0ByU3blCUkMg4TXNicEpGajVRQjg/view?usp=sharing
 
 # Exclude from processing.
