@@ -5,13 +5,16 @@ body {
 .marquee, .marquee-home {
   position: absolute;
   left: 0;
-  background: blue;
-  color: white;
+  background: white;
+  color: blue;
   text-transform: uppercase;
   font-style: italic;
   height: 25px;
   width: 100%;
   overflow: hidden;
+
+  animation: delayFadeIn 6000ms;
+-webkit-animation: delayFadeIn 6000ms;
 }
 .nav {
 margin-bottom: 100px;
@@ -84,11 +87,15 @@ display: flex;
   .intro__1 {
     width: 75%;
     padding: 10px;
+    animation: delayFadeIn 1000ms;
+-webkit-animation: delayFadeIn 1000ms;
 @include media-query($on-palm) {width:100%}
   }
   .intro__2 {
     width: 25%;
     padding: 10px;
+    animation: delayFadeIn 1000ms;
+-webkit-animation: delayFadeIn 1000ms;
 @include media-query($on-palm) {width:100%}
   }
 }
@@ -96,8 +103,6 @@ display: flex;
 .work-grid-wrapper{
 
   .prevImg-wrapper{
-    width: 100vw;
-    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,11 +110,15 @@ display: flex;
       .project-img {
         position: absolute;
         display: none;
+
+        animation: delayFadeIn 500ms;
+-webkit-animation: delayFadeIn 500ms;
+
         // transform: translate(10%, 50%);
-        img {
-          width:25vw;
-          height:auto;
-        }
+        // img {
+        //   width:20vw;
+        //   height:auto;
+        // }
       }
     }
 }
@@ -117,6 +126,17 @@ display: flex;
     position: absolute;
     bottom: 0;
     padding: 10px;
+
+    #project-link-1 {  animation: delayFadeIn 2000ms;
+    -webkit-animation: delayFadeIn 2000ms;}
+    #project-link-2 {  animation: delayFadeIn 2500ms;
+    -webkit-animation: delayFadeIn 2500ms;}
+    #project-link-3 {  animation: delayFadeIn 3000ms;
+    -webkit-animation: delayFadeIn 3000ms;}
+    #project-link-4 {  animation: delayFadeIn 3500ms;
+    -webkit-animation: delayFadeIn 3500ms;}
+    #project-link-5 {  animation: delayFadeIn 400ms;
+    -webkit-animation: delayFadeIn 400ms;}
 
   .work-grid::-webkit-scrollbar {
       display: none;
@@ -131,6 +151,9 @@ display: flex;
   padding: 10px;
   display: flex;
   margin-bottom: 10em;
+
+  animation: delayFadeIn 1000ms;
+-webkit-animation: delayFadeIn 1000ms;
 
   @include media-query($on-palm) {
         height:inherit;
@@ -191,53 +214,6 @@ display: flex;
   }
 }
 
-
-///////// Animation in
-// @keyframes fadeInUp {
-//   from {
-//     transform: translate3d(0,40px,0)
-//   }
-//
-//   to {
-//     transform: translate3d(0,0,0);
-//     opacity: 1
-//   }
-// }
-//
-// @-webkit-keyframes fadeInUp {
-//   from {
-//     transform: translate3d(0,40px,0)
-//   }
-//
-//   to {
-//     transform: translate3d(0,0,0);
-//     opacity: 1
-//   }
-// }
-//
-// .animated {
-//   animation-duration: 1s;
-//   animation-fill-mode: both;
-//   -webkit-animation-duration: 1s;
-//   -webkit-animation-fill-mode: both
-// }
-//
-// .animatedFadeInUp {
-//   opacity: 0
-// }
-//
-// .fadeInUp {
-//   opacity: 0;
-//   animation-name: fadeInUp;
-//   -webkit-animation-name: fadeInUp;
-// }
-
-//
-// .info-bar {
-//   position: fixed;
-//   bottom: 0;
-//   padding: 0 20px;
-// }
 
 footer {
   color: $off-black;

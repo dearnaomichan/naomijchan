@@ -1,11 +1,11 @@
 ---
 layout: project
 title:  Google Pay
-<!-- image: gpay_1.jpg -->
+image: assets/img/gpay/gpay_home.gif
 permalink: /Gpay/
 client: Google
 post_description: I worked closely with a group of digital designers on Google Pay’s Consumer site and Google Pay’s India site (previously known as Tez). This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with editors to mock up motion designs for third party developers.
-categories: work
+categories: 
 role: Production Designer
 ---
 
