@@ -22,3 +22,16 @@ $on-tablet:        800px !default;
     @content;
   }
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes delayFadeIn {
+  0% {opacity: 0;}
+  50% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@keyframes delayFadeIn {
+  0% {opacity: 0;}
+  50% {opacity:0;}
+  100% {opacity: 1;}
+}

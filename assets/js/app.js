@@ -37,20 +37,21 @@ function projectLink(num) {
 	return out
 }
 
-function hoverShowImage(num){
+function hoverShowImage(num, x, y){
   projectLink(num).mousemove(function(){
     previewImg(num, this).css({
       'display': 'inherit',
-      'z-index': '1000',
+      'z-index': '-100',
+      'tranform': 'translate(' + x + ',' + y + ')'
     });
   }).mouseleave( function(){
     previewImg(num).css('display', 'none')
   });
 }
 
-hoverShowImage(1)
+hoverShowImage(1, 10, 10)
 hoverShowImage(2)
 hoverShowImage(3)
 hoverShowImage(4)
-hoverShowImage(5)
-hoverShowImage(6)
+// hoverShowImage(5)
+// hoverShowImage(6)

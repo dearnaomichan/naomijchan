@@ -21,7 +21,7 @@ layout: default
     <br>
     <h4>{{ site.description }}</h4>
     <br>
-    <h4><a href="mailto:{{ site.email }}">email</a></h4>
+    <h4><a href="mailto:{{ site.email }}">say hi</a></h4>
     <br>
     <h4><a href="{{ site.resume }}">Resumé</a></h4>
     <br>
@@ -30,24 +30,24 @@ layout: default
 </div>
 
 <div class="work-grid-wrapper">
-
+<!--
   <div class="prevImg-wrapper">
   {% for post in site.categories.work %}
     <div id="prevImg-{{ forloop.index }}" class="project-img">
       <img src="{{ post.image }}" alt="">
     </div>
   {% endfor %}
-</div>
+</div> -->
 
   <div class="work-grid">
       {% for post in site.categories.work %}
         <div class="preview">
           <div id="project-link-{{ forloop.index }}">
+            <h2>
                 <a href="{{ post.permalink }}">
-                  <h2>
                 {{ post.title }}
-              </h2>
               </a>
+            </h2>
           </div>
         </div>
       {% endfor %}
@@ -55,4 +55,4 @@ layout: default
 
   </div>
 </div>
-{%- include footer-p5js.html -%}
+<!-- {%- include footer-p5js.html -%} -->
