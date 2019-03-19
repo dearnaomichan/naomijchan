@@ -1,37 +1,37 @@
 ---
 layout: default
 ---
-
+<!--
 <a href="{{ "/" | relative_url }}">
 <div class="marquee">
   <h4>~ click here to go home ~</h4>
 </div>
-</a>
-
-<div class="wow fadeInDown">
-  {%- include header.html -%}
-</div>
+</a> -->
 
 <div class="project-page">
-  <div class="project-info">
+<div class="project-border">
+
+  <div class="project-info project-title">
     <h1>{{ page.title }}</h1>
-    <!-- <p>Client</p> -->
-    <h4>{{ page.client }}</h4>
-    <!-- <h4>Role</h4> -->
-    <h4>{{ page.role }}</h4>
+    <h3>Client: {{ page.client }}</h3>
+    <h3>Role: {{ page.role }}</h3>
   </div>
-  <div class="project-info mobile">
+  <div class="project-info mobile project-desc">
     <p>{{ page.post_description}}</p>
     <br>
   </div>
 </div>
+</div>
 
 <div class="project-content">
   {{ page.content }}
+  <h3>{{ page.credits }}</h3>
 </div>
 
 <footer>
 <div class="footer">
-  <h4><a href="mailto:{{ site.email }}">say hi</a></h4>
+  <a href="{{ "/" | relative_url }}">
+    <h2>work</h2>
+  </a>
 </div>
 </footer>

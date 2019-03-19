@@ -3,15 +3,22 @@
 
 
 
-$font-sans: 'Roboto', sans-serif;
+$font-sans:  neue-haas-grotesk-text, sans-serif;
 $font-serif: 'Times New Roman', sans-serif;
 $default-weight: 400;
 
 $off-black: #2c2c2c;
-$off-white: rgba(235,235,235,.2);
-$color-gray: #F8F8F8;
+$white: white;
+$color-gray: #C9C9C9;
+$orange: #CF7000;
+$blue: #062DDF;
+$magenta: #D522B1;
+$yellow: #FFC600;
 
 $max-wid: 1199px;
+$padding: 1em;
+$spacing: 15vh;
+$border: 2px solid white;
 
 $on-palm:          600px !default;
 $on-tablet:        800px !default;
@@ -35,3 +42,12 @@ $on-tablet:        800px !default;
   50% {opacity:0;}
   100% {opacity: 1;}
 }
+
+// %columns {
+//   display: flex;
+//   columns: 2;
+//   margin: auto;
+// }
+// %_item {
+//   width: 100%;
+// }

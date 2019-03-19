@@ -2,7 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 {%- include head.html -%}
 <body>
-  {{ content }}
-  {%- include footer.html -%}
+
+  <div class="mommy">
+    {%- include header.html -%}
+    {{ content }}
+    {%- include footer.html -%}
+  </div>
+  <div class="cursor"></div>
 </body>
 </html>

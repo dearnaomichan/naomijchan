@@ -1,17 +1,59 @@
 ---
 layout: project
 title:  Google Pay
-image: assets/img/gpay/gpay_home.gif
+image: assets/img/gpay.png
 permalink: /Gpay/
 client: Google
-post_description: I worked closely with a group of digital designers on Google Pay’s Consumer site and Google Pay’s India site (previously known as Tez). This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with editors to mock up motion designs for third party developers.
+credits: "Credits: Roven Bashier, Jonathan Rodriguez, Kyle Johnson"
+post_description: Worked closely with a group of digital designers on Google Pay’s Consumer site and Google Pay’s India site (previously known as Tez). This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with editors to mock up motion designs for third party developers.
 categories: work
 role: Production Designer
 ---
 
-![gpay australia][australia]{: .pad-bottom }
+<!-- ![gpay australia][australia]{: .pad-bottom } -->
 <!-- ![gpay india][india] -->
+<!-- [australia]: /assets/img/gpay/gpay_australia.png "gpay australia"
+[india]: /assets/img/gpay/gpay_india.png "gpay india" -->
 
 
-[australia]: /assets/img/gpay/gpay_australia.png "gpay australia"
-[india]: /assets/img/gpay/gpay_india.png "gpay india"
+<div class="project-one-column ">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/324827121?autoplay=1&loop=1&color=D522B1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<div class="project-two-column ">
+  <div class="item-image left">
+    <img src="/assets/img/gpay/tez_Pay-Nearby_animation.gif" alt="Google Pay International">
+  </div>
+  <div class="item-image right">
+    <img src="/assets/img/gpay/Tez_phone.gif" alt="Google Pay International">
+  </div>
+</div>
+
+<div class="project-one-column ">
+  <img src="/assets/img/gpay/gpay_sect1_usa.png" alt="Google Pay International">
+</div>
+
+<div class="project-one-column ">
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/324857054?autoplay=1&loop=1&color=D522B1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<div class="project-two-column ">
+  <div class="item-image left">
+    <img src="/assets/img/gpay/gpay_international_1.png" alt="Google Pay International">
+  </div>
+  <div class="item-image right">
+    <img src="/assets/img/gpay/gpay_international_2.png" alt="Google Pay International">
+  </div>
+  </div>
+  <div class="project-two-column ">
+  <div class="item-image left">
+    <img src="/assets/img/gpay/gpay_international_3.png" alt="Google Pay International">
+  </div>
+  <div class="item-image right">
+    <img src="/assets/img/gpay/gpay_international_4.png" alt="Google Pay International">
+  </div>
+</div>
+<!--
+<div class="project-one-column ">
+<img src="/assets/img/gpay/gpay_usa_phone-animation.gif" alt="Google Pay International">
+</div> -->

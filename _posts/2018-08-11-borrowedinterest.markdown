@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  Borrowed Interest
-image: assets/img/borrowedinterest/bip_home.gif
+image: assets/img/bip_1.jpeg
 permalink: /borrowed-interest-podcast/
-client: Amalia Nicholson, Shareina Chandler, and Leeya Jackson
+client: Amalia Nicholson, Shareina Chandler, Leeya Jackson
 role: Designer, Front-end Developer
 post_description: I was asked to design and build a website for the Borrowed Interest Podcast. One of their goals was to talk about racial disparity in advertising. They were inspired by the pins on jackets and rage, and wanted something as far from minimal as possible with lots of color and interactivity. I worked closely with the BIP crew to create a bold design system and get this website live.
 categories: work

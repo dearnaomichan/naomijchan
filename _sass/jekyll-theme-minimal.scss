@@ -6,15 +6,25 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font-serif;
-  background: white;
-  color: black;
+  background: $color-gray;
+  color: white;
   font-weight: $default-weight;
+  cursor: none;
+}
 
+a {
+  color: $magenta;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color: white;
+  cursor: none;
 }
 
 h1 {
-  font-family: $font-serif;
-  font-size: 55px;
+  font-family: $font-sans;
+  font-size: 40px;
   line-height: 55px;
   font-weight: $default-weight;
   text-transform: uppercase;
@@ -24,18 +34,19 @@ h1 {
 
 h2 {
   font-weight: $default-weight;
-  font-family: $font-serif;
+  font-family: $font-sans;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 30px;
   @include media-query($on-palm) {font-size: 1.8em;}
 
 }
 
 h3 {
-  font-family: $font-sans;
-  font-size: 30px;
+  font-family: $font-serif;
+  font-size: 25px;
+    line-height: 35px;
   font-weight: $default-weight;
-
+  font-style: italic;
 }
 
 h4 {
@@ -67,16 +78,6 @@ p, ul, ol, table, pre, dl {
   padding: 0;
 }
 
-a {
-  color: blue;
-  text-decoration:none;
-  // opacity: 1;
-  // transition: 0.3s;
-}
-
-a:hover, a:focus {
-font-style: italic;
-}
 
 span {
   font-family: $font-sans;

@@ -1,58 +1,56 @@
 ---
 layout: default
 ---
-<!-- <script>document.body.className += ' fade-out';</script> -->
-<a href="{{ "/" | relative_url }}">
-<div class="marquee-home">
-  <h4>{{ site.marquee-about }}</h4>
-</div>
-</a>
 <div class="home-page">
-<div id="sketch-holder" style="position:absolute; z-index:-10;"></div>
-<div class="hero-home">
-  <div class="intro__1">
-    {% for post in site.categories.intro__1 %}
-      {{ post.content }}
-    {% endfor %}
-    <h1><span>Naomi Chan</span> is a digital <span>designer</span> who translates her clients’ passions into <span>interactive web experiences</span>.</h1>
-  </div>
-  <div class="intro__2">
-    <h4>{{ site.updated }}</h4>
-    <br>
-    <h4>{{ site.description }}</h4>
-    <br>
-    <h4><a href="mailto:{{ site.email }}">say hi</a></h4>
-    <br>
-    <h4><a href="{{ site.resume }}">Resumé</a></h4>
-    <br>
-    <h4><a href="{{ site.instagram }}">IG</a></h4>
-  </div>
-</div>
-
-<div class="work-grid-wrapper">
-<!--
-  <div class="prevImg-wrapper">
-  {% for post in site.categories.work %}
-    <div id="prevImg-{{ forloop.index }}" class="project-img">
-      <img src="{{ post.image }}" alt="">
-    </div>
-  {% endfor %}
-</div> -->
 
   <div class="work-grid">
       {% for post in site.categories.work %}
+      <a href="{{ post.permalink }}">
         <div class="preview">
-          <div id="project-link-{{ forloop.index }}">
-            <h2>
-                <a href="{{ post.permalink }}">
-                {{ post.title }}
-              </a>
-            </h2>
+          <div id="project-link-{{ forloop.index }}" class="project-title">
+              <h1>
+              {{ post.title }}
+              </h1>
+              <div class="project-role">
+                <h3>
+                  {{ post.role }}
+                </h3>
+              </div>
           </div>
         </div>
+      </a>
       {% endfor %}
   </div>
 
+<div class="about">
+  <div class="columns">
+
+  <div class="_item">
+    <div class="__skills_programs">
+      <h3>Skills</h3>
+      <br>
+      <ul>
+        <li><h4>Photoshop</h4></li>
+        <li><h4>Indesign</h4></li>
+        <li><h4>Illustrator</h4></li>
+        <li><h4>Sketch</h4></li>
+        <li><h4>Prototyping (Invision)</h4></li>
+        <li><h4>HTML / CSS</h4></li>
+      </ul>
+    </div>
+  </div>
+  <div class="_item">
+    <div class="__contact">
+      <h3>Contact</h3>
+      <br>
+      <!-- <h4>{{ site.description }}</h4> -->
+      <h4><a href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
+      <!-- <h4><a href="{{ site.resume }}">Resumé</a></h4> -->
+      <h4><a href="{{ site.instagram }}">Insta</a></h4>
+      <h4>* Please email for resumé</h4>
+    </div>
   </div>
 </div>
-<!-- {%- include footer-p5js.html -%} -->
+
+</div>
+</div>
