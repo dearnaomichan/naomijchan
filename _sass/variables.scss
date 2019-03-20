@@ -20,8 +20,8 @@ $padding: 1em;
 $spacing: 15vh;
 $border: 2px solid white;
 
-$on-palm:          600px !default;
-$on-tablet:        800px !default;
+$on-palm: 600px !default;
+$on-tablet: 800px !default;
 
 
 @mixin media-query($device) {

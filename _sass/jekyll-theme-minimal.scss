@@ -29,7 +29,10 @@ h1 {
   font-weight: $default-weight;
   text-transform: uppercase;
 
-  @include media-query($on-palm) {font-size: 2em; line-height: inherit;}
+  @include media-query($on-tablet) {
+    font-size: 25px;
+    line-height: 45px;
+  }
 }
 
 h2 {
@@ -44,9 +47,10 @@ h2 {
 h3 {
   font-family: $font-serif;
   font-size: 25px;
-    line-height: 35px;
+  line-height: 35px;
   font-weight: $default-weight;
   font-style: italic;
+  @include media-query($on-palm) {font-size: 23px;}
 }
 
 h4 {
@@ -63,8 +67,7 @@ p {
   font-size: 18px;
   // text-transform: uppercase;
   // line-height: 25px;
-
-  @include media-query($on-palm) {font-size: 1em;}
+  @include media-query($on-tablet) {font-size: 16px;}
 }
 
 h1, h2, h3, h4, h5, h6 {
