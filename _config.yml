@@ -17,7 +17,9 @@ title: Naomi Chan
 email: dearnaomichan@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "naomichan.info" # the base hostname & protocol for your site, e.g. http://example.com
-instagram: https://www.instagram.com/dearnaomichan/
+instagram: dearnaomichan
+linkedin: https://www.linkedin.com/in/naomi-chan-34996439/
+resume: https://drive.google.com/file/d/1I3CcRA0mDFzdM41vlUilt8S9GfI3KvfR/view?usp=sharing
 marquee-about: Naomi chan Naomi chan Naomi chan Naomi chan
   # pretty good cook / loves to travel / binge watches cult documentaries / loves to camp in the fall / always down for a walking sport / always ready for a competitive game of Scrabble / obsessive list maker / could eat Dim Sum for the rest of her life / would be an astronaut in a different lifetime ~ loves working with passionate people ~
 
@@ -31,13 +33,6 @@ excerpt_separator: <!--more-->
 # Home page info
 updated: "updated: 2.28.18"
 description: Currently working at MONO Creative Agency, Minneapolis MN.
-resume: https://drive.google.com/file/d/0ByU3blCUkMg4TXNicEpGajVRQjg/view?usp=sharing
-skills:
-  - Photoshop
-  - Indesign
-  - Illustrator
-  - Sketch
-  - Prototyping (Invision)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
