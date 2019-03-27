@@ -1,8 +1,23 @@
-$( document ).on( "mousemove", function( event ) {
-    $('.cursor').css({
-      left: event.pageX,
-      top: event.pageY
+// $( document ).on( "mousemove", function( event ) {
+//     $('.cursor').css({
+//       left: event.pageX,
+//       top: event.pageY
+//     });
+//   });
+
+
+  $(document)
+  .mousemove(function(e) {
+    $('.cursor')
+      .eq(0)
+        .css({
+          left: e.pageX,
+          top: e.pageY
+        });
     });
+  $(document).on("mousemove", function(e) {
+    mouseX = e.pageX;
+    mouseY = e.pageY;
   });
 
 // MARQUEE

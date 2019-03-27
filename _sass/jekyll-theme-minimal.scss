@@ -2,6 +2,7 @@
 @import "variables";
 @import "layout";
 
+* {cursor: none;}
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +10,6 @@ body {
   background: $color-gray;
   color: white;
   font-weight: $default-weight;
-  cursor: none;
 }
 
 a {
