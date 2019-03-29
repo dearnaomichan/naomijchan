@@ -41,7 +41,7 @@
     padding: $padding;
 
     h2 {
-      color: $orange;
+      color: $main-color;
     }
   }
 
@@ -98,7 +98,7 @@
 
         &:hover {
           background-color: white;
-          color: $orange !important;
+          color: $main-color !important;
         }
         .project-role {
           margin-left: 2em;
@@ -132,7 +132,6 @@
   // columns: 2;
   margin: auto;
   padding: $padding;
-  background-color: $blue;
 
   @include media-query($on-palm) {
     display: inline;
