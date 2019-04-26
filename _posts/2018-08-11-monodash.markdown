@@ -11,7 +11,7 @@ role: Website Designer
 {::nomarkdown}
 <div class="project-two-column ">
   <div class="item-image left">
-    <img src="/assets/img/monodash_first-animation_doc-no-ui.gif" alt="monodash landing page gif">
+    <img src="/assets/img/monodash/monodash_first-animation_doc-no-ui.gif" alt="monodash landing page gif">
   </div>
   <div class="item-image right">
     <img src="/assets/img/monodash/monodash_question_doc-no-ui.gif" alt="monodash questions gif">
