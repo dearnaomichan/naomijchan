@@ -1,10 +1,10 @@
 ---
 layout: project
 title:  Mono a Mono
-image: assets/img/monodash_2.jpg
+image:
 permalink: /monoamono/
 client: MONO
-post_description: I collaborated with a team of Creatives to design the website and social content for MONO A MONO - An internship where potential interns go head to head with MONO Employees at a chance for an internship. The website was used as a catalyst for interns to tell us they wanted to compete then we would video chat them with their randomly selected challenge. 
+post_description: I collaborated with a team of Creatives to design the website and social content for MONO A MONO: an internship application where candidates went head to head with current employees for a chance to work at MONO over the Summer. The website was used as a catalyst. Once a potential intern told tell us that they wanted to compete, we would video chat them with their randomly selected challenge. 
 categories: work
 role: Designer
 ---
