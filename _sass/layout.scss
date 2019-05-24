@@ -134,6 +134,7 @@
   padding: $padding;
 
   @include media-query($on-palm) {
+    margin: 0;
     display: inline;
   }
 
@@ -144,7 +145,8 @@
     margin: $padding;
 
     @include media-query($on-palm) {
-      width: auto;
+      padding: 0;
+      margin: 0;
     }
   }
 }
