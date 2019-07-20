@@ -205,6 +205,12 @@
     @include media-query($on-tablet) {padding-bottom:5%;}
   }
 
+.center-item {
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
   .project-three-column {
     columns: 3;
     padding-bottom:2%;
