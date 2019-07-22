@@ -1,0 +1,15 @@
+---
+layout: project
+title:  Intro 2
+categories: intro__2
+---
+
+updated: 1.6.18
+
+Currently working at MONO Agency in Minneapolis MN.
+
+[email](mailto:dearnaomichan@gmail.com)
+
+[see resumé](https://drive.google.com/file/d/0ByU3blCUkMg4TXNicEpGajVRQjg/view?usp=sharing)
+
+[follow on ig](https://www.instagram.com/dearnaomichan/)
