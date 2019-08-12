@@ -5,7 +5,7 @@ image: assets/img/hhf_2.jpg
 permalink: /human-horizon-films/
 client: Tahiel J.
 post_description: Human Horizon Films asked if I could help them out by building their first website. A simple one-pager that could showcase their work and draw in potential clients. HHF believes that video can be a catalyst for change, and that a good story is an integral part of every positive branded experience. I wanted to create a web experience that put HHF’s compassion and creativity on the forefront, letting their clients know they’d found a partner in their journey to success. <br><br> Joshua Copeland designed the hand-written Title Specimen and created a color system for the website.
-categories: work
+categories: draft
 role: Web Designer, Front-end Developer
 ---
 

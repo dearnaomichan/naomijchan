@@ -8,12 +8,18 @@ layout: default
       <a href="{{ post.permalink }}">
         <div class="preview">
           <div id="project-link-{{ forloop.index }}" class="project-title">
+            <div class="project-icon">
+              <img src=" {{ post.image }} " alt="">
+            </div>
+
               <h1>
               {{ post.title }}
               </h1>
+
               <div class="project-role">
                 <h3>{{ post.role }}</h3>
               </div>
+
           </div>
         </div>
       </a>

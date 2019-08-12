@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Borrowed Interest
-image: assets/img/bip_1.jpeg
+image: assets/img/bip_icon.png
 permalink: /borrowed-interest-podcast/
 client: Amalia Nicholson, Shareina Chandler, Leeya Jackson
 role: Designer, Front-end Developer

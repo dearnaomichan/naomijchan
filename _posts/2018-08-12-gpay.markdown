@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Google Pay
-image: assets/img/gpay.png
+image: assets/img/gpay_icon.png
 permalink: /Gpay/
 client: Google
 credits: "Credits: Roven Bashier, Jonathan Rodriguez, Kyle Johnson"

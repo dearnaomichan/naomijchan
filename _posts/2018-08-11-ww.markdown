@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Wellness Week
-image: assets/img/bip_1.jpeg
+image: assets/img/ww_icon.png
 permalink: /wellness-week/
 client: MONO
 role: Designer, Front-end Developer

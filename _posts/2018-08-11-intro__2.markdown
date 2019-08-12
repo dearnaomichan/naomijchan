@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Intro 2
-categories: intro__2
+categories: draft
 ---
 
 updated: 1.6.18

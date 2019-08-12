@@ -83,6 +83,18 @@
       position: relative;
       border-top: $border;
 
+      .project-icon {
+        margin-right: 2em;
+        img{
+          width: 35px;
+          height: 35px;
+        }
+
+        @include media-query($on-palm) {
+          display: none;
+            }
+      }
+
       .project-title {
         height: 5.5em;
         color: $white;
