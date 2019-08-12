@@ -22,6 +22,7 @@ $border: 2px solid white;
 
 $on-palm: 600px !default;
 $on-tablet: 800px !default;
+$on-laptop: 1120px !default;
 
 
 @mixin media-query($device) {

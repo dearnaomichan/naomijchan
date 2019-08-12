@@ -24,12 +24,12 @@ a:hover, a:focus {
 
 h1 {
   font-family: $font-sans;
-  font-size: 40px;
+  font-size: 2em;
   line-height: 55px;
   font-weight: $default-weight;
   text-transform: uppercase;
 
-  @include media-query($on-tablet) {
+  @include media-query($on-laptop) {
     font-size: 25px;
     line-height: 45px;
   }

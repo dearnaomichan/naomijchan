@@ -7,7 +7,7 @@ client: MONO
 role: Designer, Front-end Developer
 post_description: Wellness Week is an event week at MONO creative agency where they showed their employees how much they care about they’re wellbeing in all different kinds of ways. Every day had a different theme and all kinds of different events. They needed a website to be the main hub for the events. I designed the website, in-feed social post, and art directed the assets for the event.  
 categories: work
-role: Web Designer, Front-end Developer
+role:  Website Designer / Developer
 ---
 
 {::nomarkdown}
