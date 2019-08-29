@@ -6,6 +6,29 @@
 //   });
 
 
+function setup() {
+  var canvas = createCanvas(45, 42, WEBGL);
+
+  // Move the canvas so it’s inside our <div id="sketch-holder">.
+  canvas.parent('sketch-holder');
+}
+
+function draw() {
+  background('#C9C9C9');
+  orbitControl()
+  normalMaterial();
+
+  ambientLight(231,135,255);
+  ambientMaterial(250);
+
+  let dirX = (mouseX / width - 0.5) * 2;
+  let dirY = (mouseY / height - 0.5) * 2;
+  directionalLight(231,135,255, -dirX, -dirY, -1);
+
+  sphere(16)
+}
+
+
   $(document)
   .mousemove(function(e) {
     $('.cursor')
