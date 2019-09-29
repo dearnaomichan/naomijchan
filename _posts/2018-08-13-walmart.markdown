@@ -4,7 +4,7 @@ title:  Walmart
 image: assets/img/walmart_icon.png
 permalink: /walmart/
 client: Walmart
-post_description: My creative partner and I conceptualized Pinterest posts for Walmart’s seasonal foods. These posts were primarily for summer and fall foods. We wrote the copy as a play on quote-posts that are on Pinterest. I art directed, designed, and created the posts for delivery.
+post_description: My creative partner and I conceptualized Pinterest posts for Walmart’s Grocery Pickup & Delivery seasonal foods. These posts were primarily for summer and fall foods. We wrote the copy as a play on quote-posts that are on Pinterest. I art directed, designed, and created the posts for delivery.
 categories: work
 role: Creative
 ---
