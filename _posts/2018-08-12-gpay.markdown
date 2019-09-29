@@ -5,7 +5,7 @@ image: assets/img/gpay_icon.png
 permalink: /Gpay/
 client: Google
 credits: "Credits: Roven Bashier, Jonathan Rodriguez, Kyle Johnson"
-post_description: Worked closely with a group of digital designers on Google Pay’s Consumer site and Google Pay’s India site (previously known as Tez). This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with editors to mock up motion designs for third party developers.
+post_description: WI was the digital production lead on Google Pay’s website redesign. I worked closely with a group of digital designers on Google Pay’s Consumer site and Google Pay’s India site (previously known as Tez). This included responsive designs of Mobile and Tablet for all three websites, prototyping with Invision for clients, and working with video editors to mock up motion designs for third party developers. 
 categories: work
 role: Production Designer
 ---

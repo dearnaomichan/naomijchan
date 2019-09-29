@@ -1,0 +1,30 @@
+---
+layout: project
+title:  Walmart
+image: assets/img/walmart_icon.png
+permalink: /walmart/
+client: Walmart
+post_description: My creative partner and I conceptualized Pinterest posts for Walmart’s seasonal foods. These posts were primarily for summer and fall foods. We wrote the copy as a play on quote-posts that are on Pinterest. I art directed, designed, and created the posts for delivery.
+categories: work
+role: Creative
+---
+
+
+{::nomarkdown}
+<div class="project-one-column ">
+<img src="/assets/img/walmart/wmt_august_statics.png" alt="Pinterest Static posts for Walmart">
+</div>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/356756300?autoplay=1&loop=1&color=e787ff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
+<div class="project-one-column ">
+<img src="/assets/img/walmart/wmt_august_veg_carousel.png" alt="Pinterest Carousel posts for Walmart">
+</div>
+
+<div class="project-one-column ">
+<img src="/assets/img/walmart/wmt_august_meat_carousel.png" alt="Pinterest Carousel posts for Walmart">
+</div>
+
+{:/}

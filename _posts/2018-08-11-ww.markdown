@@ -5,7 +5,7 @@ image: assets/img/ww_icon.png
 permalink: /wellness-week/
 client: MONO
 role: Designer, Front-end Developer
-post_description: Wellness Week is an event week at MONO creative agency where they showed their employees how much they care about they’re wellbeing in all different kinds of ways. Every day had a different theme and all kinds of different events. They needed a website to be the main hub for the events. I designed the website, in-feed social post, and art directed the assets for the event.  
+post_description: MONO is passionate about its employees. And MONO’s employees are passionate about their health. To show how much it cares (and that health goes way beyond food and fitness), the agency threw its first annual Welcome Week, a weeklong celebration of wellbeing—in all forms. Each day had a specific theme and all sorts of related activities, ranging from recipe-sharing to painting to playing with puppies. I designed the website and in-feed social post, and art directed all the assets for the event.  
 categories: work
 role:  Website Designer / Developer
 ---
