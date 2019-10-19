@@ -1,24 +1,24 @@
 ////// DEFAULTS -> Cursor, Mommy, Nav
 
-.cursor {
-   position: absolute;
-   left: 0;
-   top: 0;
-   transform: translate(-50%, -50%);
-   background: $blue;
-   width: 50px;
-   height: 50px;
-   border-radius: 35px;
-   mix-blend-mode: difference;
-   user-select: none;
-   pointer-events: none;
-
-   @include media-query($on-tablet) {
-     display: none;
-   }
-   // animation: delayFadeIn 1000ms;
-   // -webkit-animation: delayFadeIn 1000ms;
-}
+// .cursor {
+//    position: absolute;
+//    left: 0;
+//    top: 0;
+//    transform: translate(-50%, -50%);
+//    background: $blue;
+//    width: 50px;
+//    height: 50px;
+//    border-radius: 35px;
+//    mix-blend-mode: difference;
+//    user-select: none;
+//    pointer-events: none;
+//
+//    @include media-query($on-tablet) {
+//      display: none;
+//    }
+//    // animation: delayFadeIn 1000ms;
+//    // -webkit-animation: delayFadeIn 1000ms;
+// }
 
 .mommy {
   max-width: 1000px;
@@ -33,7 +33,7 @@
 
 .nav {
   width: 100%;
-  margin-bottom: $spacing;
+  // margin-bottom: $spacing;
 
 
   .intro {
@@ -41,9 +41,9 @@
     padding: $padding;
     display: flex;
 
-    h2 {
-      color: $main-color;
-    }
+    // h2 {
+    //   // color: $main-color;
+    // }
   }
 
   .__item {
@@ -108,7 +108,7 @@
 
       .project-title {
         height: 5.5em;
-        color: $white;
+        // color: $white;
         transition: opacity 500ms;
         padding: 10px;
         display: flex;
@@ -123,7 +123,7 @@
 
         &:hover {
           background-color: white;
-          color: $main-color !important;
+          // color: $main-color !important;
         }
 
         .project-role {
@@ -150,7 +150,7 @@
 
 .about {
   // height: 100%;
-  margin-top: 20%;
+  margin-top: $spacing;
   align-items: center;
   display: flex;
 

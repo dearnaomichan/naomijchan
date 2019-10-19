@@ -7,41 +7,41 @@
 
 
 function setup() {
-  var canvas = createCanvas(45, 42, WEBGL);
+  var canvas = createCanvas(80, 60, WEBGL);
 
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
 }
 
 function draw() {
-  background('#C9C9C9');
+  // background('');
   orbitControl()
   normalMaterial();
 
-  ambientLight(231,135,255);
-  ambientMaterial(250);
+  ambientLight(0, 0, 255);
+  ambientMaterial(255);
 
   let dirX = (mouseX / width - 0.5) * 2;
   let dirY = (mouseY / height - 0.5) * 2;
-  directionalLight(231,135,255, -dirX, -dirY, -1);
+  directionalLight(252,221,93, -dirX, -dirY, -1);
 
-  sphere(16)
+  sphere(25)
 }
 
 
-  $(document)
-  .mousemove(function(e) {
-    $('.cursor')
-      .eq(0)
-        .css({
-          left: e.pageX,
-          top: e.pageY
-        });
-    });
-  $(document).on("mousemove", function(e) {
-    mouseX = e.pageX;
-    mouseY = e.pageY;
-  });
+  // $(document)
+  // .mousemove(function(e) {
+  //   $('.cursor')
+  //     .eq(0)
+  //       .css({
+  //         left: e.pageX,
+  //         top: e.pageY
+  //       });
+  //   });
+  // $(document).on("mousemove", function(e) {
+  //   mouseX = e.pageX;
+  //   mouseY = e.pageY;
+  // });
 
 // MARQUEE
 

@@ -26,8 +26,7 @@ function draw() {
   // var ix = width - mouseX;  // Inverse X
   // var iy = height - mouseY; // Inverse Y
 
-  fill('black')
-  stroke('white')
+
   // ellipse(x1, y1, mouseY/5);
   // ellipse(x1r, y1r, mouseY/6);
   // ellipse(x1, y2, width/100);
